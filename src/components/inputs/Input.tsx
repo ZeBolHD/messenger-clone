@@ -38,7 +38,6 @@ const Input = ({
           {...register(id, { required })}
           className={clsx(
             `
-          
           form-input
           block
           w-full rounded-md
