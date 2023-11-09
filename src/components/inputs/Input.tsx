@@ -13,21 +13,10 @@ interface InputProps {
   disabled?: boolean;
 }
 
-const Input = ({
-  label,
-  id,
-  type,
-  required,
-  register,
-  errors,
-  disabled,
-}: InputProps) => {
+const Input = ({ label, id, type, required, register, errors, disabled }: InputProps) => {
   return (
     <div>
-      <label
-        className="block text-sm font-medium leading-6 text-gray-900"
-        htmlFor={id}
-      >
+      <label className="block text-sm font-medium leading-6 text-gray-900" htmlFor={id}>
         {label}
       </label>
       <div className="mt-2">

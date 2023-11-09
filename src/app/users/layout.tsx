@@ -12,7 +12,7 @@ export default async function UsersLayout({ children }: UsersLayoutProps) {
   return (
     <Sidebar>
       <UserList items={users} />
-      <div className="h-full">{children}</div>;
+      <div className="h-full">{children}</div>
     </Sidebar>
   );
 }
